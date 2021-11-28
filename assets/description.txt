@@ -1,0 +1,1 @@
+A weather dashboard that shows you information about the weather in the city of your chossing.

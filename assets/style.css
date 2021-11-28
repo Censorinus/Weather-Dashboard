@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(124, 124, 124);
+  }
+  title {
+    width: 200px;
+    font: 100;
+    color:rgb(197, 200, 24);
+  }
+  body {
+    width: 100vw;
+    min-height: 100vh;
+    background: rgb(197, 200, 24);
+    background: linear-gradient(
+      180deg,
+      rgb(251, 255, 0) 43%,
+      rgb(253, 255, 133) 87%,
+      rgb(255, 255, 255) 100%
+    );
+  }
+  .nav-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+    color: rgb(136, 136, 136);
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
+  .repos-container {
+    display: flex;
+    flex-direction: row;
+  }
+  .city-search {
+    background: rgba(143, 143, 143, 0.4);
+    margin-right: 15px;
+    padding: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-width: 20%;
+  }
+  
+  .search-btn {
+    background-color: rgb(38, 11, 65);
+  }
+  
+  .form-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  /*  display city data*/
+  .display-weather {
+    background: rgba(73, 73, 73, 0.4);
+    padding: 15px;
+    margin: 0 15px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    min-width: 80%;
+  }
